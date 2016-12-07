@@ -1,0 +1,23 @@
+{
+  "name": "sticky-stacky-scrollr",
+  "version": "0.1.0",
+  "description": "Stacks elements as you scroll down.",
+  "main": "example/index.html",
+  "scripts": {
+    "start": "budo example/index.js --live -- -t babelify",
+    "build": "babel source/StickyStackyScrollr.js --out-file script-compiled.js"
+  },
+  "keywords": [
+    "scrollr"
+  ],
+  "author": "Sam Pedley",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "budo": "^9.2.2",
+    "watchify": "^3.3.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
