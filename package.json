@@ -2,7 +2,7 @@
   "name": "sticky-stacky-scrollr",
   "version": "0.1.0",
   "description": "Stacks elements as you scroll down.",
-  "main": "example/index.html",
+  "main": "dist/",
   "author": "Sam Pedley <sam@sampedley.com> (http://sampedley.com)",
   "scripts": {
     "start": "budo example/index.js --live -- -t babelify",
