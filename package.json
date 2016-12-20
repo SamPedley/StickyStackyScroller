@@ -52,5 +52,8 @@
       "dist",
       "example"
     ]
+  },
+  "standard": {
+    "globals": [ "it", "expect", "jest" ]
   }
 }
