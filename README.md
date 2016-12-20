@@ -1,6 +1,8 @@
 StickyStackyScrollr
 ===================
 
+[![Build Status](https://travis-ci.org/SamPedley/StickyStackyScroller.svg?branch=master)](https://travis-ci.org/SamPedley/StickyStackyScroller) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 An old project that allowed stacking up any kind of html element as the user scrolled.  Kind of handy for small little projects but very basic.  Might think about cleaning it up and turning it into something useful one day... if I get bored enough.
 
 [A working example can be found Here!](http://codepen.io/SamPedley/full/jbWGyJ)

@@ -1,9 +1,9 @@
 {
   "name": "sticky-stacky-scrollr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stacks elements as you scroll down.",
   "main": "dist/",
-  "author": "Sam Pedley <sam@sampedley.com> (http://sampedley.com)",
+  "author": "Sam Pedley",
   "scripts": {
     "start": "budo example/index.js --live -- -t babelify",
     "prebuild": "rimraf dist",
@@ -11,12 +11,12 @@
     "build:umd": "webpack --output-filename index.umd.js",
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "build:main": "babel --copy-files --out-dir dist src",
-    "lint": "standard"
+    "lint": "standard",
+    "test": "jest"
   },
   "keywords": [
     "scrollr"
   ],
-  "author": "Sam Pedley",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
     "budo": "^9.2.2",
+    "jest": "^18.0.0",
     "npm-run-all": "^3.1.2",
     "rimraf": "^2.5.4",
     "standard": "^8.6.0",
