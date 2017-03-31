@@ -12,7 +12,8 @@
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "build:main": "babel --copy-files --out-dir dist src",
     "lint": "standard",
-    "test": "jest"
+    "test": "jest",
+    "deploy-gh": "webpack --config webpack.example.config.js --output-filename bundle.js && gh-pages -d example"
   },
   "keywords": [
     "scrollr"
@@ -32,6 +33,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
     "budo": "^9.2.2",
+    "gh-pages": "^0.12.0",
     "jest": "^18.0.0",
     "npm-run-all": "^3.1.2",
     "rimraf": "^2.5.4",
@@ -48,12 +50,13 @@
     ]
   },
   "standard": {
-    "ignore": [
-      "dist",
-      "example"
+    "globals": [
+      "it",
+      "expect",
+      "jest"
     ]
   },
-  "standard": {
-    "globals": [ "it", "expect", "jest" ]
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
